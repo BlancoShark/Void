@@ -1,2 +1,2 @@
 # Void
-Could be anything
+Could be anything.
