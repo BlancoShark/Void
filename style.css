@@ -181,30 +181,28 @@ input,select{vertical-align:middle}
 }
 
 /*Demo styles BEGIN*/
-#window0 {	top: 20px;	left: 240px;}
-#window1 {	top: 400px; left: 120px;}
-#window2 {	top: 250px; left: 300px;}
-#window3 {	top: 125px; left: 420px;}
-#window0 .wincontent {	width: 660px; height: 400px;	}
+#window0 {	top: 300px;	left: 100px;}
+#window1 {	top: 20px;	left: 240px;}
+#window2 {	top: 400px; left: 120px;}
+#window3 {	top: 250px; left: 300px;}
+#window4 {	top: 125px; left: 420px;}
+#window0 .wincontent {	width: 180px; height: 180px;	}
 #window1 .wincontent {	width: 480px; height: 270px;	}
-#window2 .wincontent {	width: 400px; height: 350px;	}
+#window2 .wincontent {	width: 3312px; height: 123px;	}
 #window3 .wincontent {	width: 400px; height: 350px;	}
-@media screen and (max-width:960px){
-	#window0 {	left: 10px;	}
-	#window3 {	left: 50px;	}	
+#window4 .wincontent {	width: 1300px; height: 600px;	}
+@media screen and (max-width:1350px){
+	#window1 {	left: 10px;	}
+	#window4 {	left: 50px;	}	
 }
-@media screen and (max-width:770px){
-	#window0 .wincontent {	width: 460px;	}
-	#window2 {	left: 100px;	}
-	#window1 {	top: 190px;	left: -5px;	}
+@media screen and (max-width:500px){
+	#window1 .wincontent {	width: 460px;	}
+	#window3 {	left: 100px;	}
+	#window2 {	top: 190px;	left: -5px;	}
 }
 @media screen and (max-width:540px){
-#window0 .wincontent {	width: 230px; height: 200px;	}
-#window3 .wincontent {
-    width: 275px;
-    height: auto;
-}
-#window3 {    top: 9px;    left: 10px;	}
-#window2 {    left: -118px;	}
-#window1 .wincontent {    width: auto;    height: 300px;	}
+#window1 .wincontent {	width: 500px; height: 300px;	}
+#window4 {    top: 9px;    left: 10px;	}
+#window3 {    left: -118px;	}
+#window2 .wincontent {    width: auto;    height: 300px;	}
 }
